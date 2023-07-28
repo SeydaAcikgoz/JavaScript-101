@@ -32,16 +32,13 @@
                 else if (type === "-") {
                     sonuc = Number(sayi1.value) - Number(sayi2.value);
                 }
-
                 else if (type === "*") {
                     sonuc = Number(sayi1.value) * Number(sayi2.value);
                 }
-
                 else if (type === "/") {
                     sonuc = Number(sayi1.value) / Number(sayi2.value);
                 }
                     document.getElementById("sonuc").innerHTML = sonuc;//sonucu ekrana yazdık
-
         }
 
          // == ->eşit mi  5=="5" doğru,eşit
@@ -103,7 +100,7 @@
                 }catch(err){
                     console.error(err);
                 }
-//Bilgisayar tarafından 10 'a kadar tutulmuş olan rastgele sayıyı bulalım
+            //Bilgisayar tarafından 10 'a kadar tutulmuş olan rastgele sayıyı bulalım
                 var randomSayi = Math.floor(Math.random() * 10);
                     //Girdiğimiz sayıyı aklında tutması için prompt değişkene atanır
                     var tahmin = prompt("Bir sayı gir ve rastgele sayıyı bulmaya çalış!");
