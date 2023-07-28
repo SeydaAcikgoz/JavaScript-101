@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF-ELSE</title>
+</head>
+<body>
+    <input id="sayi1" type="number">
+    <input id="sayi2" type="number">
+    <button onclick="hesapla('+')">Topla</button>
+    <button onclick="hesapla('-')">Çıkar</button>
+    <button onclick="hesapla('*')">Çarp</button>
+    <button onclick="hesapla('/')">Böl</button>
+
+    <div id="sonuc"></div>
+    <script>
+
+//if in içi eksili sayilar(-5),0,false,null,undefined,"" olursa false algılar ve if çalışmaz
+//if in içi pozitif sayılar,"merhaba","0" olursa true alır ve if çalışır
+
+        var sayi1 = document.getElementById("sayi1");
+        var sayi2 = document.getElementById("sayi2");
+
+        function hesapla(type) {
+                var sonuc = "";
+                
+                if (type === "+") {
+                    sonuc = Number(sayi1.value) + Number(sayi2.value);
+                }
+                else if (type === "-") {
+                    sonuc = Number(sayi1.value) - Number(sayi2.value);
+                }
+
+                else if (type === "*") {
+                    sonuc = Number(sayi1.value) * Number(sayi2.value);
+                }
+
+                else if (type === "/") {
+                    sonuc = Number(sayi1.value) / Number(sayi2.value);
+                }
+                    document.getElementById("sonuc").innerHTML = sonuc;//sonucu ekrana yazdık
+
+        }
+
+         // == ->eşit mi  5=="5" doğru,eşit
+            // === ->denk mi 5==="5" yanlış,denk değil
+
+
+            function test(ilksayi, ikincisayi, ucuncusayi, dorduncusayi) {
+                alert(ilksayi + ikincisayi + ucuncusayi + dorduncusayi);
+            }
+            test(1, 2, 3, 4); //eğer eksik parametre gönderirsek eksik olanı undefined alır sonuc NaN çıkar
+
+            
+            function test2(...params) {
+                var sonuc2=0;
+                params.forEach(item => {
+                    sonuc2+=item;
+                })
+                document.write(" sonuc2:",sonuc2);
+            }
+            test2(10, 20, 30, 40);
+
+            function test3(ilksayi, ...params) { //ilk parametreyi aldık ama kullanmadık
+                var sonuc3 = 0;
+                params.forEach(item2 => {
+                    sonuc3 += item2;
+                })
+               document.write(" sonuc3:", sonuc3);
+            }
+            test3(10, 20, 30, 40,50,60);
+
+            function test4(...params) {//fonk soncucunu return ile gösterme
+                    var sonuc4 = 0;
+                    params.forEach(item3 => {
+                        sonuc4 += item3;
+                    })
+                   
+                    return sonuc4;
+                }
+                document.writeln(" sonuc4:",test4(10, 20, 30, 40));
+               
+                
+                //hata yakalar
+                try{
+                    if (type === "+") {
+                        sonuc = Number(sayi1.value) + Number(sayi2.value);
+                        throw  new Error("Merhaba Hata!");
+                    }
+                    else if (type === "-") {
+                        sonuc = Number(sayi1.value) - Number(sayi2.value);
+                    }
+
+                    else if (type === "*") {
+                        sonuc = Number(sayi1.value) * Number(sayi2.value);
+                    }
+
+                    else if (type === "/") {
+                        sonuc = Number(sayi1.value) / Number(sayi2.value);
+                    }
+                }catch(err){
+                    console.error(err);
+                }
+//Bilgisayar tarafından 10 'a kadar tutulmuş olan rastgele sayıyı bulalım
+                var randomSayi = Math.floor(Math.random() * 10);
+                    //Girdiğimiz sayıyı aklında tutması için prompt değişkene atanır
+                    var tahmin = prompt("Bir sayı gir ve rastgele sayıyı bulmaya çalış!");
+                    if (tahmin === randomSayi && tahmin != null) alert("Bildin!!!");
+                    else if (tahmin == "") alert("Boş giriş yaptınız!");
+                    else if (tahmin == null) alert("Giriş yapmaktan vazgeçtiniz!");
+                    else {
+                        alert("Bir daha denee :(, Random sayi: " + randomSayi);
+                    }
+    </script>
+</body>
+</html>
