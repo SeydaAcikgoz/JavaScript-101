@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="buttons"></div>
+    <script>
+
+        for (let i = 0; i < 5; i++) {
+            console.log(i);
+        }
+
+        //78 veri bulunan bir listeyi 10 ar veri olacak şekilde sayfalamaya çalışırsak 8 tane sayfa oluşmalı:
+        const containerDiv = document.getElementById("buttons");
+        const dataCount = 80;
+        const dataCountForPerPage = 10;
+
+        let pageCount = Math.ceil(dataCount / dataCountForPerPage);
+
+        for (let i = 1; i <= pageCount; i++) {
+            containerDiv.innerHTML += "<button onclick='goToPage("+i+")'>" + i +"</button>";
+            //`<button onclick="goToPage(${i})">${i}</button>`;
+        }
+
+        function goToPage(pageIndex){
+            alert(pageIndex);
+        }
+
+    </script>
+</body>
+
+</html>
