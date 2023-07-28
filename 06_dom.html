@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="tittle">Merhaba Dünyaa</h2>
+    
+    <ul id="list">
+        <li><a id="linkk" href="#">link bilgisi</a></li>
+    </ul>
+
+    <ul id="list2">
+        <li>merhaba</li>
+        <li>javascript</li>
+        <li>dünyası</li>
+        <li>!</li>
+    </ul>
+
+    <h1 id="greetting">Hello</h1>
+
+    <script>
+        let tittle=document.getElementById('tittle');
+        console.log(tittle);
+        console.log(tittle.innerHTML);
+        tittle.innerHTML="Değişen Bilgi";
+        console.log(tittle.innerHTML);
+
+        let link=document.querySelector("ul#list>li>a");//querySelector->sayfada etiketle eşleşen ilk eş-lemanı alır
+        link.innerHTML+=" değişti";//link in innerhtml ine ekleme yaptık
+        console.log(link);
+        console.log(link.innerHTML);
+
+        let link2= document.querySelector("#linkk");//link bilgisine id ile erişim
+        console.log(link2);
+        console.log(link2.innerHTML);
+
+        //list2 deki son elementine eriş
+        let lastChild=document.querySelector("ul#list2>li:last-child");
+        console.log(lastChild.innerText);
+
+        let firstChild = document.querySelector("ul#list2>li:first-child");
+        firstChild.innerHTML+="değişti";
+        console.log(firstChild.innerText);
+
+        //yeni element oluşturmak ve sonuna eklemek
+        let ulDOM=document.querySelector("ul#list2");
+        let liDOM=document.createElement("li");
+        liDOM.innerHTML="Kendi Oluşturduğum Öge"
+        ulDOM.append(liDOM);
+
+         //yeni element oluşturmak ve başına eklemek
+        let ulDOM2 = document.querySelector("ul#list2");
+        let liDOM2 = document.createElement("li");
+        liDOM2.innerHTML = "Kendi Oluşturduğum Öge2"
+        ulDOM2.append(liDOM2);
+        ulDOM2.prepend(liDOM2);
+        
+        
+        let gretting=document.querySelector("h1")
+        greetting.classList.add("text-primary");//style ekleme
+        gretting.classList.remove("text-primary");//style çıkarma
+        
+        
+
+    </script>
+</body>
+</html>
