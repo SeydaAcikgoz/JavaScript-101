@@ -22,3 +22,13 @@ document.writeln(ornek+icerik);
 alert(ornek + icerik);
 var sonuc = ornek.trim();
 alert(sonuc);
+
+//slice():kendisine verilecek olan parametreler ile tanımlanmış değişken içeriği aralığında bulunan değerleri kopyalayarak yeni bir içerik oluşturur ve oluşturduğu değeri geriye döndürür.
+var icerik="Seyda Acikgoz";
+document.write(icerik);
+var icerik2 = icerik.slice();
+document.write(icerik2);
+var icerik3 = icerik.slice(10);
+document.write(icerik3);
+var icerik4 = icerik.slice(1,5);
+document.write(icerik4);
