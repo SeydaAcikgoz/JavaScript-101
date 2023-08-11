@@ -32,3 +32,14 @@ var icerik3 = icerik.slice(10);
 document.write(icerik3);
 var icerik4 = icerik.slice(1,5);
 document.write(icerik4);
+
+//substring():kendisine verilecek olan parametreler ile tanımlanmış değişken içeriği aralığında bulunan değerleri kopyalarak yeni bir içerik oluşturur ve oluşturduğu değeri geri döndürür.
+var metin = "Javascript Egitim Seti";
+document.write(metin);
+var metin2 = metin.substring(5);
+document.write(metin2);
+var metin3 = metin.substring(1,5);
+document.write(metin3);
+var metin4 = metin.substring(5,1);
+document.write(metin4);
+//metin3==metin4
