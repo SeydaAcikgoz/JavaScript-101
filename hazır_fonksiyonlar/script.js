@@ -63,3 +63,8 @@ document.writeln(sonuc);
 var uc = "Javascript";
 var sonuc = bir.concat(iki,uc);
 document.writeln(sonuc);
+
+//repeat():kendisine parametre olarak verilen değer doğrultusunda değişken içeriğini tekrar edip kopyalayarak yeni içerik oluşturur ve içeriği geriye döndürür.
+var metin="Javascript";
+var metin2=metin.repeat(2);
+document.write(metin2);
