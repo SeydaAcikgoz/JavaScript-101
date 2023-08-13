@@ -43,3 +43,14 @@ document.write(metin3);
 var metin4 = metin.substring(5,1);
 document.write(metin4);
 //metin3==metin4
+
+//substr():kendisine verilecek olan parametreler ile tanımlanmış değişken içeriği aralığında bulunan değerleri kopyalarak yeni bir içerik oluşturur ve oluşturduğu değeri geriye döndürür.
+var metin="Javascript dünya üzerinde kullanılan en yaygın script dilidir.";
+var sonuc=metin.substr();
+document.write(sonuc);
+var sonuc = metin.substr(11);//11.karakterden sonrasını al
+document.write(sonuc);
+ var sonuc = metin.substr(11,5);//11.karakterden başla 5 karakter yaz
+document.write(sonuc);
+var sonuc = metin.substr(-11);//sondan 11 karakteri al
+document.write(sonuc);
