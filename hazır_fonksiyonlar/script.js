@@ -54,3 +54,12 @@ document.write(sonuc);
 document.write(sonuc);
 var sonuc = metin.substr(-11);//sondan 11 karakteri al
 document.write(sonuc);
+
+//concat():üzerinde çalışılan değişkene parametrik olarak verilen değişken veya değişkenleri dahil ederek yeni içerik oluşturur ve içeriği geriye döndürür.
+var bir="Seyda";
+var iki="Acikgoz";
+var sonuc=bir.concat(iki);
+document.writeln(sonuc);
+var uc = "Javascript";
+var sonuc = bir.concat(iki,uc);
+document.writeln(sonuc);
