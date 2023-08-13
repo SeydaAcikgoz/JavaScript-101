@@ -68,3 +68,7 @@ document.writeln(sonuc);
 var metin="Javascript";
 var metin2=metin.repeat(2);
 document.write(metin2);
+
+//toString():değişken içeriğini string veri  türünde düz bir metne dönüştürerek oluşturduğu değeri geri döndürür.
+var deger=5;
+document.write(deger.toString());
