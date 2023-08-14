@@ -102,3 +102,17 @@ document.write(typeof yenidort);
 document.write(typeof yenibes);
 document.write(typeof yenialti);
 document.write(typeof yeniyedi);
+
+//Number():değişken içeriğini mutlak olarak number veri türüne dönüştürerek oluşturduğu değeri geri döndürür.
+var bir = true;
+var iki = "8";
+var uc = new Date();
+document.writeln(typeof bir);
+document.write(typeof iki);
+document.write(typeof uc);
+var yenibir = Number(bir);
+var yeniiki = Number(iki);
+var yeniuc = Number(uc);
+document.writeln(typeof yenibir);
+document.write(typeof yeniiki);
+document.write(typeof yeniuc);
