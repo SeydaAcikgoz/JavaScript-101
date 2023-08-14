@@ -72,3 +72,33 @@ document.write(metin2);
 //toString():değişken içeriğini string veri  türünde düz bir metne dönüştürerek oluşturduğu değeri geri döndürür.
 var deger=5;
 document.write(deger.toString());
+
+//String():değişken içeriğini mutlak olarak string veri türünde düz bir metne dönüştürerek oluşturduğu değeri geri döndürür.
+var bir=Boolean(0);
+var iki = Boolean(1);
+var uc = 8;
+var dort = 8.55;
+var bes = ["Seyda" , "Acikgoz"];
+var alti = "";
+var yedi = new Date();
+document.writeln(typeof bir);
+document.write(typeof iki);
+document.write(typeof uc);
+document.write(typeof dort);
+document.write(typeof bes);
+document.write(typeof alti);
+document.write(typeof yedi);
+var yenibir = String(bir);
+var yeniiki = String(iki);
+var yeniuc = String(uc);
+var yenidort = String(dort);
+var yenibes = String(bes);
+var yenialti = String(alti);
+var yeniyedi = String(yedi);
+document.writeln(typeof yenibir);
+document.write(typeof yeniiki);
+document.write(typeof yeniuc);
+document.write(typeof yenidort);
+document.write(typeof yenibes);
+document.write(typeof yenialti);
+document.write(typeof yeniyedi);
