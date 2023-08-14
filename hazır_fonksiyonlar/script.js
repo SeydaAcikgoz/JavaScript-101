@@ -116,3 +116,18 @@ var yeniuc = Number(uc);
 document.writeln(typeof yenibir);
 document.write(typeof yeniiki);
 document.write(typeof yeniuc);
+
+//valueOf():üzerinde çalışılan değişken değerinin tam anlamıyla aktarımını sağlayarak yeni bir içerik oluşturur ve oluşturduğu içeriği geri döndürür.
+var degerbir="5";
+document.writeln(degerbir);
+document.writeln(typeof degerbir);
+var sonucbir = degerbir.valueOf();
+document.writeln(sonucbir);
+document.writeln(typeof sonucbir);
+
+var degeriki = 5;
+document.writeln(degeikir);
+document.writeln(typeof degeriki);
+var sonuciki = degeriki.valueOf();
+document.writeln(sonuciki);
+document.writeln(typeof sonuciki);
