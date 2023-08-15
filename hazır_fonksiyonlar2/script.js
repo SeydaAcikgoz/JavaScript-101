@@ -15,3 +15,8 @@ metin = "Javascript eğitim seti";
 document.write(metin.startsWith("J") + "<br>");
 document.write(metin.startsWith("2") + "<br>");
 
+//endsWith():kendisine parametre olarak verilen değer doğrultusunda değişken içeriğinin bitiş değerini kontrol ederek boolean veri türünde sonuç döndürür.
+metin = "Javascript eğitim seti";
+document.write(metin.endsWith("J") + "<br>");
+document.write(metin.endsWith("i") + "<br>");
+
