@@ -10,3 +10,8 @@ var metin ="Javascript eğitim seti";
 var metin2=metin.includes("seti");
 document.write(metin2 + "<br>");
 
+//startsWith():kendisine parametre olarak verilen değer doğrultusunda değişken içeriğinin başlangıç değerini kontrol ederek boolean veri türünde sonuç döndürür.
+metin = "Javascript eğitim seti";
+document.write(metin.startsWith("J") + "<br>");
+document.write(metin.startsWith("2") + "<br>");
+
