@@ -138,3 +138,10 @@ var sonuc = metin.indexOf("i");
 document.writeln(sonuc);
 var sonuc = metin.indexOf("i", 15);  //15.karakterden itibaren ara
 document.writeln(sonuc);
+
+//lastIndexOf():değişken içerisinde parametrik olarak verilen değeri arar ve son eşleşmeyi sağlayan değişken içeriğinin indexini geri döndürür.,
+var metin = "Javascript egitim seti";
+var sonuc = metin.lastIndexOf("i");
+document.writeln(sonuc);
+var sonuc = metin.lastIndexOf("i", 15);  //15.karaktere kadar ara
+document.writeln(sonuc);
