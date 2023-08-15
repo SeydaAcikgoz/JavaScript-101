@@ -131,3 +131,10 @@ document.writeln(typeof degeriki);
 var sonuciki = degeriki.valueOf();
 document.writeln(sonuciki);
 document.writeln(typeof sonuciki);
+
+//indexOf():değişken içerisinde parametrik olarak verilen değeri arar ve ilk eşleşmeyi sağlayan değişken içeriğinin indexini geri döndürür.
+var metin = "Javascript egitim seti";
+var sonuc = metin.indexOf("i");
+document.writeln(sonuc);
+var sonuc = metin.indexOf("i", 15);  //15.karakterden itibaren ara
+document.writeln(sonuc);
