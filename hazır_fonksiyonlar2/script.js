@@ -41,3 +41,15 @@ document.write(metin + "<br>");
 sonuc=metin.replace("php","javascript");
 document.write(sonuc + "<br>");
 
+//split():kendisine verilecek olan parametreler doğrultusunda değişken içeriğini bölümleyerek yeni bir dizi oluşturur  ve oluşturduğu içeriği geriye döndürür.(düzenli ifade alabilir.)
+metin="Javascript eğitim seti";
+document.write(metin + "<br>");
+sonuc=metin.split();
+document.write(sonuc + "<br>");
+sonuc = metin.split("");//karakter karakter bölümler
+document.write(sonuc + "<br>");
+sonuc = metin.split(" ");
+document.write(sonuc + "<br>");
+sonuc = metin.split("a");
+document.write(sonuc + "<br>");
+
