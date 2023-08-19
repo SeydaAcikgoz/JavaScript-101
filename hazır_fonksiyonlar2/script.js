@@ -35,3 +35,9 @@ document.write(sonuc + "<br>");
 sonuc = icerik.match(/eğitim/ig);
 document.write(sonuc + "<br>");
 
+//replace():kendisine verilecek olan parametreler doğrultusunda değişken içeriğini kontrol eder ve eşleşen değerlerin sağlayarak yeni bir içerik oluşturur ve oluşturduğu içeriği geriye döndürür.(düzenli ifade alabilir.)
+metin="Dünya'da en yaygın olarak kullanılan script dili php'tir.";
+document.write(metin + "<br>");
+sonuc=metin.replace("php","javascript");
+document.write(sonuc + "<br>");
+
