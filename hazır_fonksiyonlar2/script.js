@@ -20,3 +20,18 @@ metin = "Javascript eğitim seti";
 document.write(metin.endsWith("J") + "<br>");
 document.write(metin.endsWith("i") + "<br>");
 
+//match():kendisine parametre olarak verilen değer doğrultusunda değişken içeriğini kontrol eder ve eşleşen değer varsa içeriğin eşleşen kısmından yeni bir içerik oluşturur ve oluşturduğı içeriği geri döndürür.(Düzenli ifade alabilir.)
+var icerik="Javascript eğitim seti Eğitim";
+sonuc=icerik.match("eğitim");
+document.write(sonuc + "<br>");
+sonuc = icerik.match("o");
+document.write(sonuc + "<br>");
+//g : içeriğin tamamı üzerinde çalışılmasını sağlar.(düzenli ifade)
+//i : içeriğin büyük/küçük harf olmasına bakmaz.(düzenli ifade)
+sonuc = icerik.match(/eğitim/i);
+document.write(sonuc+"<br>");
+sonuc = icerik.match(/eğitim/g);
+document.write(sonuc + "<br>");
+sonuc = icerik.match(/eğitim/ig);
+document.write(sonuc + "<br>");
+
