@@ -53,3 +53,10 @@ document.write(sonuc + "<br>");
 sonuc = metin.split("a");
 document.write(sonuc + "<br>");
 
+//localCompare():üzerinde çalışılan değişkene parametrik olarak verilen diğer bir değişken içeriğini tarayıcı diline göre karşılaştırarak sonucu geri döndürür.
+//Birinci değişken içeriği ikinci değişken içeriğinden önce geliyorsa -1,eşitse 0,sonra geliyorsa 1 döner.
+var icerik1="abc";
+var icerik2 = "abd";
+document.write(icerik1.localeCompare(icerik2) + "<br>");
+document.write(icerik2.localeCompare(icerik1) + "<br>");
+
