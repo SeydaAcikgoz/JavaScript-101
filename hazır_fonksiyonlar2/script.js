@@ -80,3 +80,7 @@ document.write(String.fromCharCode(159) + "<br>");
 //encodeURI():değişken içerisindeki metnin özel karaketerlerini UTF-8 kodlamasına dönüştürerek oluşturduğu değeri geri döndürür.
 document.write(encodeURI("http://www.extraegitim.com") + "<br>");
 document.write(encodeURI("http://www.extraeğıtim.com") + "<br>");
+
+//decodeURI():değişken içerisindeki metnin özel karaketerlerinin UTF-8 kodlamasına dönüştürülmüş karakterlerini çözerek oluşturduğu değeri geri döndürür.
+document.write(decodeURI("http://www.extraegitim.com?") + "<br>");
+document.write(decodeURI("http://www.extrae%C4%9F%C4%B1tim.com") + "<br>");
