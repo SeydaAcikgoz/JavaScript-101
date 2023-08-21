@@ -76,3 +76,7 @@ document.write(metin.charCodeAt(10) + "<br>");
 document.write(String.fromCharCode(45) + "<br>");
 document.write(String.fromCharCode(79) + "<br>");
 document.write(String.fromCharCode(159) + "<br>");
+
+//encodeURI():değişken içerisindeki metnin özel karaketerlerini UTF-8 kodlamasına dönüştürerek oluşturduğu değeri geri döndürür.
+document.write(encodeURI("http://www.extraegitim.com") + "<br>");
+document.write(encodeURI("http://www.extraeğıtim.com") + "<br>");
