@@ -72,4 +72,7 @@ document.write(metin.charCodeAt(0) + "<br>");
 document.write(metin.charCodeAt(7) + "<br>");
 document.write(metin.charCodeAt(10) + "<br>");
 
-
+//fromCharCode():kendisine parametre olarak verilen UNICODE değerini karakter olarak geriye döndürür.
+document.write(String.fromCharCode(45) + "<br>");
+document.write(String.fromCharCode(79) + "<br>");
+document.write(String.fromCharCode(159) + "<br>");
