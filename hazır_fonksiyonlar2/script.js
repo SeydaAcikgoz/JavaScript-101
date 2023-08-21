@@ -66,3 +66,10 @@ document.write(metin.charAt(0) + "<br>");
 document.write(metin.charAt(7) + "<br>");
 document.write(metin.charAt(10) + "<br>");
 
+//charCodeAt():kendisine parametre olarak verilen değer doğrultusunda değişken içeriğindeki karşılığı olan karakteri bularak karakterin UNICODE değerini geriye döndürür.
+metin = "Seyda Acikgöz";
+document.write(metin.charCodeAt(0) + "<br>");
+document.write(metin.charCodeAt(7) + "<br>");
+document.write(metin.charCodeAt(10) + "<br>");
+
+
