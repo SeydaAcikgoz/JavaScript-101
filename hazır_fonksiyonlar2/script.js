@@ -60,3 +60,9 @@ var icerik2 = "abd";
 document.write(icerik1.localeCompare(icerik2) + "<br>");
 document.write(icerik2.localeCompare(icerik1) + "<br>");
 
+//charAt():kendisine parametre olarak verilen değer doğrultusunda değişken içeriğindeki karşılığı olan karakteri bularak geri döndürür.
+metin="Seyda Acikgöz";
+document.write(metin.charAt(0) + "<br>");
+document.write(metin.charAt(7) + "<br>");
+document.write(metin.charAt(10) + "<br>");
+
