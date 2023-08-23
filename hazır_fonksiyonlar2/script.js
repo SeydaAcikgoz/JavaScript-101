@@ -93,3 +93,9 @@ document.write(encodeURIComponent("http://www.extraeğıtim.com") + "<br>");
 document.write(decodeURIComponent("http%3A%2F%2Fwww.extraegitim.com") + "<br>");
 document.write(decodeURIComponent("http%3A%2F%2Fwww.extrae%C4%9F%C4%B1tim.com") + "<br>");
 
+//escape():değişken içerisindeki metnin özel karakterlerini UNICODE kodlamasına dönüştürerek oluşturduğu değeri geriye döndürür.
+deger="Javascrip eğitim seti";
+document.write(deger + "<br>");
+deger2=escape(deger);
+document.write(deger2 + "<br>");
+document.write(escape("' + % * - ,") + "<br>");
