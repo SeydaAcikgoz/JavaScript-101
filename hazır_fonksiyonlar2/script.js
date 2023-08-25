@@ -105,10 +105,14 @@ deger = "Javascrip%20e%u011Fitim%20seti";
 document.write(unescape(deger) + "<br>");
 document.write(unescape("%27%20+%20%25%20*%20-%20%2C") + "<br>");
 
-//toUpperCase():değişken içerisindeki metnin tamamını büyük harf yapar ve değeri gerşye döndürür.
+//toUpperCase():değişken içerisindeki metnin tamamını büyük harf yapar ve değeri geriye döndürür.
 metin = "Seyda aCikgoZ";
 document.write(metin.toUpperCase()+ "<br>");
 
-//toLLowerCase():değişken içerisindeki metnin tamamını küçük harf yapar ve değeri gerşye döndürür.
+//toLowerCase():değişken içerisindeki metnin tamamını küçük harf yapar ve değeri geriye döndürür.
 metin = "Seyda aCikgoZ";
 document.write(metin.toLowerCase() + "<br>");
+
+//toLocaleUpperCase():değişken içerisindeki metnin tamamını tarayıcı lokasyonuna göre(diline göre) büyük harf yapar ve değeri gerşye döndürür.
+metin = "Şeyda aÇIkgöZ";
+document.write(metin.toLocaleUpperCase() + "<br>");
