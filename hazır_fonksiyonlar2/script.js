@@ -143,4 +143,9 @@ document.write(icerik.big() + "<br>");
 //small():değişken içerisindeki metni kücük fontlu metin yaparak değerini geriye döndürür.
 icerik = "Javascript";
 document.write(icerik + "<br>");
+
+//bold():değişken içerisindeki metni kalın fontlu metin yaparak değerini geriye döndürür.
+icerik = "Javascript";
+document.write(icerik + "<br>");
+document.write(icerik.bold() + "<br>");
 document.write(icerik.small() + "<br>");
