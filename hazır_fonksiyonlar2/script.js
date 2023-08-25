@@ -116,3 +116,7 @@ document.write(metin.toLowerCase() + "<br>");
 //toLocaleUpperCase():değişken içerisindeki metnin tamamını tarayıcı lokasyonuna göre(diline göre) büyük harf yapar ve değeri gerşye döndürür.
 metin = "Şeyda aÇIkgöZ";
 document.write(metin.toLocaleUpperCase() + "<br>");
+
+//toLocaleLowerCase():değişken içerisindeki metnin tamamını tarayıcı lokasyonuna göre(diline göre) küçük harf yapar ve değeri geriye döndürür.
+metin = "Şeyda aÇIkgöZ";
+document.write(metin.toLocaleLowerCase() + "<br>");
