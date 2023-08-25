@@ -149,3 +149,8 @@ icerik = "Javascript";
 document.write(icerik + "<br>");
 document.write(icerik.bold() + "<br>");
 document.write(icerik.small() + "<br>");
+
+//italics():değişken içerisindeki metni italik fontlu metin yaparak değerini geriye döndürür.
+icerik = "Javascript";
+document.write(icerik + "<br>");
+document.write(icerik.italics() + "<br>");
