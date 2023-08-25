@@ -128,3 +128,9 @@ var deger2islem =deger2.sub();
 var deger3 = "O";
 document.write(deger2islem + "<br>");
 document.write(deger1+deger2islem+deger3 + "<br>");
+
+//sup():değişken içerisindeki metni üst simge metni yaparak değerini geriye döndürür. 
+deger="m";
+deger2 = "2";
+var deger2islem = deger2.sup();
+document.write(deger + deger2islem+ "<br>");
