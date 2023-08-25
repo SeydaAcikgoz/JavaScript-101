@@ -99,3 +99,8 @@ document.write(deger + "<br>");
 deger2=escape(deger);
 document.write(deger2 + "<br>");
 document.write(escape("' + % * - ,") + "<br>");
+
+//unescape():değişken içerisindeki metnin özel karakterlerinin UNICODE kodlamasına dönüştürülmüş karakterlerini çözerek değeri geriye döndürür.
+deger = "Javascrip%20e%u011Fitim%20seti";
+document.write(unescape(deger) + "<br>");
+document.write(unescape("%27%20+%20%25%20*%20-%20%2C") + "<br>");
