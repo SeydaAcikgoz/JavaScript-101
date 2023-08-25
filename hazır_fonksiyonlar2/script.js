@@ -134,3 +134,8 @@ deger="m";
 deger2 = "2";
 var deger2islem = deger2.sup();
 document.write(deger + deger2islem+ "<br>");
+
+//big():değişken içerisindeki metni büyük fontlu metin yaparak değerini geriye döndürür.
+icerik="Javascript";
+document.write(icerik+ "<br>");
+document.write(icerik.big() + "<br>");
