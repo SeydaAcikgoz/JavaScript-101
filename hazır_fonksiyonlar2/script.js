@@ -104,3 +104,7 @@ document.write(escape("' + % * - ,") + "<br>");
 deger = "Javascrip%20e%u011Fitim%20seti";
 document.write(unescape(deger) + "<br>");
 document.write(unescape("%27%20+%20%25%20*%20-%20%2C") + "<br>");
+
+//toUpperCase():değişken içerisindeki metnin tamamını büyük harf yapar ve değeri gerşye döndürür.
+metin = "Seyda aCikgoZ";
+document.write(metin.toUpperCase()+ "<br>");
