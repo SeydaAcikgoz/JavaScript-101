@@ -139,3 +139,8 @@ document.write(deger + deger2islem+ "<br>");
 icerik="Javascript";
 document.write(icerik+ "<br>");
 document.write(icerik.big() + "<br>");
+
+//small():değişken içerisindeki metni kücük fontlu metin yaparak değerini geriye döndürür.
+icerik = "Javascript";
+document.write(icerik + "<br>");
+document.write(icerik.small() + "<br>");
