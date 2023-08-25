@@ -120,3 +120,11 @@ document.write(metin.toLocaleUpperCase() + "<br>");
 //toLocaleLowerCase():değişken içerisindeki metnin tamamını tarayıcı lokasyonuna göre(diline göre) küçük harf yapar ve değeri geriye döndürür.
 metin = "Şeyda aÇIkgöZ";
 document.write(metin.toLocaleLowerCase() + "<br>");
+
+//sub():değişken içerisindeki metni alt simge metni yaparak değerini geriye döndürür.
+var deger1="H";
+var deger2 = "2";
+var deger2islem =deger2.sub();
+var deger3 = "O";
+document.write(deger2islem + "<br>");
+document.write(deger1+deger2islem+deger3 + "<br>");
