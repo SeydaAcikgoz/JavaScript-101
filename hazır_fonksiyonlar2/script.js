@@ -159,3 +159,9 @@ document.write(icerik.italics() + "<br>");
 icerik = "Javascript";
 document.write(icerik + "<br>");
 document.write(icerik.strike() + "<br>");
+
+//fixed():değişken içerisindeki metni daktilo fontlu metin yaparak değerini geriye döndürür.
+icerik = "Javascript";
+document.write(icerik + "<br>");
+document.write(icerik.fixed() + "<br>");
+
