@@ -185,3 +185,8 @@ document.write(icerik.fontcolor("#FF9900") + "<br>");
 icerik = "Javascript";
 document.write(icerik + "<br>");
 alert(icerik.anchor("eğitim") + "<br>");//<a name="eğitim">Javascript</a>
+
+//link():değişkene çapa (<a>...</a>) tanımlaması yapar.ayrıca çapaya köprü değeri atar.
+icerik = "Google";
+document.write(icerik + "<br>");
+document.write(icerik.link("http://www.google.com") + "<br>");
