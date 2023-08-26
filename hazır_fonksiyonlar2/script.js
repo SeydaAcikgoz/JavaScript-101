@@ -165,3 +165,10 @@ icerik = "Javascript";
 document.write(icerik + "<br>");
 document.write(icerik.fixed() + "<br>");
 
+//fontcolor():kendisine parametre olarak verilen değer doğrultusunda değişken içerisindeki metni renklendirerek metin yaparak değerini geriye döndürür.(varsayılan renk green)
+icerik = "Javascript";
+document.write(icerik + "<br>");
+document.write(icerik.fontcolor() + "<br>");
+document.write(icerik.fontcolor("blue") + "<br>");
+document.write(icerik.fontcolor("red") + "<br>");
+document.write(icerik.fontcolor("#FF9900") + "<br>");
