@@ -180,3 +180,8 @@ document.write(icerik.fontsize(2) + "<br>");
 document.write(icerik.fontsize(5) + "<br>");
 document.write(icerik.fontcolor("red") + "<br>");
 document.write(icerik.fontcolor("#FF9900") + "<br>");
+
+//anchor():değişkene çapa(<a>...</a>) tanımlaması yapar.ayrıca çapaya name değeri atar.
+icerik = "Javascript";
+document.write(icerik + "<br>");
+alert(icerik.anchor("eğitim") + "<br>");//<a name="eğitim">Javascript</a>
