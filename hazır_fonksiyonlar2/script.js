@@ -154,3 +154,8 @@ document.write(icerik.small() + "<br>");
 icerik = "Javascript";
 document.write(icerik + "<br>");
 document.write(icerik.italics() + "<br>");
+
+//strike():değişken içerisindeki metni üzeri çizili  metin yaparak değerini geriye döndürür.
+icerik = "Javascript";
+document.write(icerik + "<br>");
+document.write(icerik.strike() + "<br>");
