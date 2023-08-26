@@ -170,5 +170,13 @@ icerik = "Javascript";
 document.write(icerik + "<br>");
 document.write(icerik.fontcolor() + "<br>");
 document.write(icerik.fontcolor("blue") + "<br>");
+
+//fontsize():kendisine parametre olarak verilen değer doğrultusunda değişken içerisindeki metni font boyutunu değiştirerek metin yaparak değerini geriye döndürür.(1-7 arasında değer verilebilir.)
+icerik = "Javascript";
+document.write(icerik + "<br>");
+document.write(icerik.fontsize() + "<br>");
+document.write(icerik.fontsize(1) + "<br>");
+document.write(icerik.fontsize(2) + "<br>");
+document.write(icerik.fontsize(5) + "<br>");
 document.write(icerik.fontcolor("red") + "<br>");
 document.write(icerik.fontcolor("#FF9900") + "<br>");
