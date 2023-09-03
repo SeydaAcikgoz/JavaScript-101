@@ -14,7 +14,6 @@ function deneme(){
 }
 var komut = eval("deneme()");
 
-
 //trim(): karakter dizisinin başındaki ve sonundaki boşluk karakterlerini siler.
 var ornek="     Javascript  "
 var icerik="Egitim Seti"
