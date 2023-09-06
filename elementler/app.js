@@ -41,3 +41,10 @@ const todos = document.querySelectorAll(".list-group-item");
 todos[0].remove();  //ilk todo silindi
 todos[todos.length-1].remove();  //son todo silindi
 todoList.removeChild(todos[1]);
+
+//Element Değiştirme
+cardBody = document.querySelectorAll(".card-body")[1];
+const newTitle=document.createElement("h2");
+newTitle.className="card-title";
+newTitle.textContent="Todo Listesi-Yeni";
+cardBody.replaceChild(newTitle, cardBody.childNodes[1]);
