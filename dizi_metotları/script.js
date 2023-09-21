@@ -49,3 +49,10 @@ var sayilar=[1,2,3,4,5,6,7,8,9];
 document.writeln(sayilar.slice(1, 5) + "<br>");
 document.writeln(sayilar.slice(2,-2) + "<br>");//2.den başla sondan 2.ye kadar al
 document.writeln(sayilar.slice(-5, -2) + "<br>");//sondan 5.den başla sondan 2.ye kadar al
+
+//copyWithin():kendisine verilecek olan parametreler ile tanımlanmış dizi aralğındaki değerleri kopyalayarak parametreler doğrultusunda dizinin elemanlarını değiştirir ve dizinin değerini döndürür.(eleman sayısı değişmez)
+sayilar.copyWithin(2);//5.indise gelir ve baştan 5.indise kadar olan değerleri ekler
+document.write(sayilar+"<br>");
+sayilar.copyWithin(5,3);
+document.write(sayilar + "<br>"); sayilar.copyWithin(2,3,5);
+document.write(sayilar + "<br>");
