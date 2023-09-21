@@ -22,3 +22,9 @@ renkler.push("yeşil");
 document.writeln(renkler + "<br>");
 renkler.push("turuncu","mor");
 document.writeln(renkler + "<br>");
+
+//unshift():dizinin başına eleman(lar) eklemeyi sağlar.
+renkler.unshift("turkuaz");
+document.writeln(renkler + "<br>");
+renkler.unshift("bordo", "pembe");
+document.writeln(renkler + "<br>");
