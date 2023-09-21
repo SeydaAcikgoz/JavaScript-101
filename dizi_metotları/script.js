@@ -43,3 +43,9 @@ meyveler.splice(2, 0, "kavun","erik");
 document.writeln(meyveler + "<br>");
 meyveler.splice(0, 1, "avakado");//2.indisten başla 2 tane sil 1 eleman ekle
 document.writeln(meyveler + "<br>");
+
+//slice():kendisine verilecek olan parametreler ile tanımlanmış dizi aralığında buku--lunan değerleri kopyalayarak yeni bir dizi oluşturur ve oluşturduğu diziyi geri döndürür.
+var sayilar=[1,2,3,4,5,6,7,8,9];
+document.writeln(sayilar.slice(1, 5) + "<br>");
+document.writeln(sayilar.slice(2,-2) + "<br>");//2.den başla sondan 2.ye kadar al
+document.writeln(sayilar.slice(-5, -2) + "<br>");//sondan 5.den başla sondan 2.ye kadar al
