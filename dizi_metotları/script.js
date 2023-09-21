@@ -28,3 +28,18 @@ renkler.unshift("turkuaz");
 document.writeln(renkler + "<br>");
 renkler.unshift("bordo", "pembe");
 document.writeln(renkler + "<br>");
+
+//splice():diziden eleman(lar) silmeyi sağlar ve eleman(lar)ı geri döndürür.Aytıca eleman(lar) eklemeyi sağlar.
+var meyveler=["elma","armut","kivi","kiraz","muz","ananas"];
+meyveler.splice(1,1);//birinci indis değerinden başla 1 eleman sil
+document.writeln(meyveler + "<br>");
+meyveler.splice(1, 2);
+document.writeln(meyveler + "<br>");
+meyveler.splice(2);//2.elemandan sonuna kadar sil
+document.writeln(meyveler + "<br>");
+meyveler.splice(2,0,"karpuz");//2.indise ekle
+document.writeln(meyveler + "<br>");
+meyveler.splice(2, 0, "kavun","erik");
+document.writeln(meyveler + "<br>");
+meyveler.splice(0, 1, "avakado");//2.indisten başla 2 tane sil 1 eleman ekle
+document.writeln(meyveler + "<br>");
