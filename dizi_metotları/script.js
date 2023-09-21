@@ -12,3 +12,8 @@ document.writeln(renkler +"<br>");
 //pop():dizi içindeki son elemanı siler ve sildiği elemanın değerini geri döndürür.
 renkler.pop();
 document.writeln(renkler + "<br>");
+
+//shift():dizi içindeki ilk elemanı siler ve sildiği elemanın değerini geri döndürür.
+renkler.shift();
+document.writeln(renkler+ "<br>");
+
