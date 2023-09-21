@@ -17,3 +17,8 @@ document.writeln(renkler + "<br>");
 renkler.shift();
 document.writeln(renkler+ "<br>");
 
+//push():dizinin sonuna eleman(lar) eklemeyi sağlar.
+renkler.push("yeşil");
+document.writeln(renkler + "<br>");
+renkler.push("turuncu","mor");
+document.writeln(renkler + "<br>");
