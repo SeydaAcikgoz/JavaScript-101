@@ -86,4 +86,10 @@ document.write(typeof array + "<br>");
 var array = renkler.join(" ve ");
 document.write(array + "<br>");
 
+//toString():dizideki tüm elemanları içeren string veri türünde metin oluşturur ve oluşturduğu değeri geriye döndürür.
+document.write(meyve + "<br>");
+var array2 = meyve.toString();
+document.write(array2 + "<br>");
+document.write(typeof meyve + "<br>");
+document.write(typeof array2 + "<br>");
 document.write(yiyecek + "<br>");
