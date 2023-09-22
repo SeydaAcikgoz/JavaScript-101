@@ -67,3 +67,14 @@ meyveler.fill("portakal");//hepsini değiştirir
 document.write(meyveler + "<br>");
 meyveler.fill("nar",2);//2.indisten sonuna kadar değiştirir
 document.write(meyveler + "<br>");
+
+//concat():üzerinde çalışılan diziye parametreik olarak verilen eleman(lar)ı veya dizi(ler)i dahil ederek yeni bir dizi oluşturur ve oluşturulmuş dizi değerini geriye döndürür
+var meyve=["elma","armut","çilek"];
+var sebze = ["salatalık","domates","patates"];
+var fastfood = ["hamburger", "pizza"];
+var yiyecek=meyve.concat(sebze);
+document.write(yiyecek + "<br>");
+yiyecek = meyve.concat(sebze,fastfood);
+document.write(yiyecek + "<br>");
+yiyecek = meyve.concat("turşu");
+document.write(yiyecek + "<br>");
