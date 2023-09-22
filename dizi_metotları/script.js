@@ -77,4 +77,13 @@ document.write(yiyecek + "<br>");
 yiyecek = meyve.concat(sebze,fastfood);
 document.write(yiyecek + "<br>");
 yiyecek = meyve.concat("turşu");
+
+//join():dizideki elemanların arasına kendisine paramtere olarak verilen değeri ayraç olarak kullnarak string veri türünde düz bir metin oluştutut ve bu oluşturduğu değeri geriye döndürür.
+document.write(renkler + "<br>");
+var array = renkler.join();
+document.write(array + "<br>");
+document.write(typeof array + "<br>");
+var array = renkler.join(" ve ");
+document.write(array + "<br>");
+
 document.write(yiyecek + "<br>");
