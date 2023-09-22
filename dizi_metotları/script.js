@@ -56,3 +56,14 @@ document.write(sayilar+"<br>");
 sayilar.copyWithin(5,3);
 document.write(sayilar + "<br>"); sayilar.copyWithin(2,3,5);
 document.write(sayilar + "<br>");
+
+//fill():kendisine verilecek olan parametreler ile tanımlanmış dizi aralığında bulunan depğer parametreler ile belirtilmiş olan değer doğrultusunda dizi elemanlarını değiştirir ve dizinin değerini geri döndürür.
+//1.parametre:değer
+//2.parametre:başlangıç indexi
+//3.parametre:bitiş indexi
+meyveler.fill("portakal",1,3);
+document.write(meyveler+"<br>");
+meyveler.fill("portakal");//hepsini değiştirir
+document.write(meyveler + "<br>");
+meyveler.fill("nar",2);//2.indisten sonuna kadar değiştirir
+document.write(meyveler + "<br>");
