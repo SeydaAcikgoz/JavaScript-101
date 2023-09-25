@@ -104,3 +104,8 @@ document.write(meyve + "<br>");
 //indexOf():dizi içerisinde parametrik olarak verilen değeri arar ve ilk eşleşmeyi sağlayan elemanın index değerini geri döndürür.
 document.write(sebze + "<br>");
 document.write(sebze.indexOf("domates") + "<br>");
+
+//lastIndexOf():dizi içerisinde parametrik olarak verilen değeri arar ve son eşleşmeyi sağlayan elemanın index değerini geri döndürür.
+sebze=["salatalık","domates","marul","domates","patates","salatalık"]
+document.write(sebze + "<br>");
+document.write(sebze.lastIndexOf("domates") + "<br>");
