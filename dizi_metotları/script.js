@@ -93,3 +93,10 @@ document.write(array2 + "<br>");
 document.write(typeof meyve + "<br>");
 document.write(typeof array2 + "<br>");
 document.write(yiyecek + "<br>");
+
+//valueOf():üzerinde çalışılan dizi değerini tam anlamıyla aktarımını sağlayarak yeni bir dizi oluşturur ve dizi değerini geri döndürür.(dizi tam olarak değiştiği için ana dizide yapılan bir değişiklik sonradan oluşan diziyi de etkiler)
+var yeni = meyve.valueOf();
+document.write(yeni + "<br>");
+meyve.fill("nar");
+document.write(yeni + "<br>");
+document.write(meyve + "<br>");
