@@ -100,3 +100,7 @@ document.write(yeni + "<br>");
 meyve.fill("nar");
 document.write(yeni + "<br>");
 document.write(meyve + "<br>");
+
+//indexOf():dizi içerisinde parametrik olarak verilen değeri arar ve ilk eşleşmeyi sağlayan elemanın index değerini geri döndürür.
+document.write(sebze + "<br>");
+document.write(sebze.indexOf("domates") + "<br>");
