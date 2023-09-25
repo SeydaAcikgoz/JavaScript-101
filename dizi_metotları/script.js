@@ -121,3 +121,15 @@ var sayilar=[1,2,3,4,5,6,7,8,9];
 document.write(sayilar + "<br>");
 var sonuc=sayilar.find(deneme);
 document.write(sonuc + "<br>");
+
+//findIndex():kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerinde tek tek olmak üzere çalıştıtır ve dizi içerisinde parametrik olarak verilen değeri arar ve ilk eşleşmeyi sağlayan dizi elemanın index değerini geriye döndürür.
+//1.parametre:her işlemde elde edilen dizi elemanı
+//2.parametre:her işlemde elde edilen diziz elemanının indexi
+//3.parametre:her tekrar işleminde diziyi tutan değişkenin referansı
+function deneme(eleman, sira, referans) {
+    return eleman == 6;
+}
+var sayilar = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+document.write(sayilar + "<br>");
+var sonuc = sayilar.findIndex(deneme);
+document.write(sonuc + "<br>");
